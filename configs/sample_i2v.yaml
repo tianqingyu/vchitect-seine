@@ -10,7 +10,8 @@ save_path: "./results/i2v/"
 # model config: 
 model: UNet
 num_frames: 16
-image_size: [288, 512]
+# image_size: [288, 512]
+image_size: [512, 288]
 # image_size: [240, 560]
 # image_size: [320, 512]
 # image_size: [512, 512]
