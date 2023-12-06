@@ -1,13 +1,15 @@
-#path config:
+# path config:
 ckpt: "pretrained/seine.pt"
 pretrained_model_path: "pretrained/stable-diffusion-v1-4/"
 input_path: "input/transition/1"
+# input_path: "input/transition/4"
+# input_path: "input/transition/5"
 save_path: "./results/transition/"
 
 # model config: 
 model: UNet
 num_frames: 16
-#image_size: [320, 512]
+# image_size: [320, 512]
 image_size: [512, 512]
 
 # model speedup
