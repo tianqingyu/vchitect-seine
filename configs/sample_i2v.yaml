@@ -12,7 +12,6 @@ model: UNet
 num_frames: 16
 # image_size: [h, w]
 # image_size: [240, 560]
-# image_size: [288, 512]
 image_size: [320, 512]
 # image_size: [512, 512]
 
