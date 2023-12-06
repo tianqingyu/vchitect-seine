@@ -9,8 +9,8 @@ save_path: "./results/transition/"
 # model config: 
 model: UNet
 num_frames: 16
-# image_size: [320, 512]
-image_size: [512, 512]
+image_size: [320, 512]
+# image_size: [512, 512]
 
 # model speedup
 use_fp16: True
